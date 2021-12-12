@@ -1,0 +1,25 @@
+<div class="logout">
+  <button mat-raised-button color="primary" (click)="logout()">Logout</button>
+</div>
+
+<div class="back">
+  <div class="example-button-row">
+    <div class="example-flex-container">
+      <div class="example-button-container">
+        <button mat-icon-button color="primary" aria-label="Example icon button with a home icon" (click)="backHotels()">
+					<mat-icon>keyboard_backspace</mat-icon>
+				</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="hotel-detail" *ngIf="hotelData!=null">
+  <h1 class="title">{{hotelData.name}}</h1>
+  <div>
+    <span>Valoración en estrellas: {{hotelData.stars}}</span>
+    <mat-icon aria-hidden="false" aria-label="stars">star</mat-icon>
+  </div>
+  <div>
+    <span>Precio por noche: {{hotelData.price}}</span>
+  </div>
+</div>

@@ -1,0 +1,9 @@
+<div class="login">
+  <form [formGroup]="loginForm" class="custom-form" method="post">
+    <h1>Login</h1>
+    <input formControlName="email" type="email" name="email" placeholder="Email" required="required" autocomplete="off" />
+    <input formControlName="password" type="password" name="password" placeholder="Contraseña" required="required" autocomplete="off" />
+    <div class="error" *ngIf="error">Usuario o contraseña incorrectos.</div>
+    <button type="submit" mat-raised-button color="primary" (click)="login()" [disabled]="!loginForm.valid">Login</button>
+  </form>
+</div>

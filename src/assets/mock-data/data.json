@@ -1,0 +1,48 @@
+{
+    "users": [{
+        "email": "prueba@prueba.com",
+        "password": "1234",
+        "id": 1
+    }],
+    "hotels": [{
+            "id": 1,
+            "name": "THE TRAFALGAR",
+            "cityCode": "LON",
+            "available": true,
+            "stars": 4,
+            "price": "84€"
+        },
+        {
+            "id": 2,
+            "name": "Central Park Hotel",
+            "cityCode": "LON",
+            "available": true,
+            "stars": 5,
+            "price": "100€"
+        },
+        {
+            "id": 3,
+            "name": "Park Plaza Westminster Bridge",
+            "cityCode": "LON",
+            "available": true,
+            "stars": 5,
+            "price": "120€"
+        },
+        {
+            "id": 4,
+            "name": "Zedwell Piccadilly",
+            "cityCode": "LON",
+            "available": true,
+            "stars": 3,
+            "price": "67€"
+        },
+        {
+            "id": 5,
+            "name": "Lancaster Gate Hotel",
+            "cityCode": "LON",
+            "available": true,
+            "stars": 2,
+            "price": "40€"
+        }
+    ]
+}
